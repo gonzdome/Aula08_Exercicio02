@@ -13,19 +13,22 @@ namespace Aula08_Exercicio02
             //soma, subtração, multiplcação e divisão
 
             Console.WriteLine("Digite um número!");
-            double n1 = double.Parse(Console.ReadLine());
+            double numero1 = double.Parse(Console.ReadLine());
             
             Console.WriteLine("Digite outro número!");
-            double n2 = double.Parse(Console.ReadLine());
+            double numero2 = double.Parse(Console.ReadLine());
 
-            double som = n1 + n2;
-            Console.WriteLine("A soma é: " + som + "!");
-            double sub = n1 - n2;
-            Console.WriteLine("A subtração é: " + sub + "!");
-            double mult = n1 * n2;
-            Console.WriteLine("A multiplicação é: " + mult + "!");
-            double divi = n1 / n2;
-            Console.WriteLine("A divisão é: " + divi + "!");
+            double resultado = numero1 + numero2;
+            Console.WriteLine("O resultado da soma é: " + resultado + "!");
+
+            double resultado1 = numero1 - numero2;
+            Console.WriteLine("O resultado da subtração é: " + resultado1 + "!");
+
+            double resultado2 = numero1 * numero2;
+            Console.WriteLine("O resultado da multiplicação é: " + resultado2 + "!");
+
+            double resultado3 = numero1 / numero2;
+            Console.WriteLine("O resultado da divisão é: " + resultado3 + "!");
 
             //Console.WriteLine("A soma entre os números escolhidos é: " + som + "!"
             //    + "\nA subtração entre os números escolhidos é: " + sub + "!"
