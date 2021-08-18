@@ -21,19 +21,14 @@ namespace Aula08_Exercicio02
             double resultado = numero1 + numero2;
             Console.WriteLine("O resultado da soma é: " + resultado + "!");
 
-            double resultado1 = numero1 - numero2;
-            Console.WriteLine("O resultado da subtração é: " + resultado1 + "!");
+            resultado = numero1 - numero2;
+            Console.WriteLine("O resultado da subtração é: " + resultado + "!");
 
-            double resultado2 = numero1 * numero2;
-            Console.WriteLine("O resultado da multiplicação é: " + resultado2 + "!");
+            resultado = numero1 * numero2;
+            Console.WriteLine("O resultado da multiplicação é: " + resultado + "!");
 
-            double resultado3 = numero1 / numero2;
-            Console.WriteLine("O resultado da divisão é: " + resultado3 + "!");
-
-            //Console.WriteLine("A soma entre os números escolhidos é: " + som + "!"
-            //    + "\nA subtração entre os números escolhidos é: " + sub + "!"
-            //    + "\nA multiplicação entre os números escolhidos é: " + mult + "!"
-            //    + "\nA divisão entre os números escolhidos é: " + divi + "!");
+            resultado = numero1 / numero2;
+            Console.WriteLine("O resultado da divisão é: " + resultado + "!");
 
             Console.ReadKey();
         }
